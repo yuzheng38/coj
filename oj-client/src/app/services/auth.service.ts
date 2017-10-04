@@ -12,10 +12,10 @@ export class AuthService {
   userProfile = new BehaviorSubject<any>(undefined);
 
   auth0 = new auth0.WebAuth({
-    clientID: 'p3dwECgtfB1IcO1cfc9GKU5jLEP5zJGa',
-    domain: 'yuzheng38.auth0.com',
+    clientID: '',
+    domain: '',
     responseType: 'token id_token',
-    audience: 'https://yuzheng38.auth0.com/userinfo',
+    audience: '',
     redirectUri: 'http://localhost:3000',      
     scope: 'openid profile'
   });
